@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "artworkImage": "images/image0.png",
+    "artworkTitle": "Grogilla#013",
+    "artworkDetails": "Chieftaincy attires, #African, igbo cultures ,igbo attires,",
+    "creator": "@mRose",
+    "ownerImage": "https://res.cloudinary.com/djisilfwk/image/upload/v1642264443/Minto%20NFT%20Marketplace/avatars/michail.jpg",
+    "uploaded": "12",
+    "likes": 40,
+    "tags": "art"
+  },
+  {
+    "id": "2",
+    "artworkImage": "images/image01.png",
+    "artworkTitle": "Grogilla#019",
+    "artworkDetails": "Clock block Hoodie ,ear rings,eye glasses",
+    "creator": "@katrina",
+    "uploaded": "12",
+    "likes": 40,
+    "tags": "art"
+  },
+  {
+    "id": "3",
+    "artworkImage": "images/image2.png",
+    "artworkTitle": "Grogilla#06",
+    "artworkDetails": "Cigars, suit,rose",
+    "creator": "@rashmi",
+    "uploaded": "12",
+    "likes": 40,
+    "tags": "signature"
+  },
+  {
+    "id": "4",
+    "artworkImage": "images/image3.png",
+    "artworkTitle": "Grogilla #15",
+    "artworkDetails": "Grog with headphone/bubble gum",
+    "creator": "@balen",
+    "uploaded": "12",
+    "likes": 40,
+    "tags": "music"
+  },
+  {
+    "id": "5",
+    "artworkImage": "images/image0.png",
+    "artworkTitle": "Grogilla#013",
+    "artworkDetails": "Chieftaincy attires, #African, igbo cultures ,igbo attires,",
+    "creator": "@aGarcia",
+    "uploaded": "12",
+    "likes": 40,
+    "tags": "poster"
+  },
+  {
+    "id": "6",
+    "artworkImage": "images/image2.png",
+    "artworkTitle": "Grogilla#06",
+    "artworkDetails": "Cigars, suit,rose",
+    "creator": "@rashmi",
+    "uploaded": "12",
+    "likes": 40,
+    "tags": "memes"
+  }
+]
