@@ -4,9 +4,9 @@ import { Box, useMediaQuery } from "@mui/material";
 import BackgroundWrinkles1 from "../../assets/BackgroundWrinkles1.svg";
 import BackgroundWrinklesLight from "../../assets/backgroundWrinklesLight.svg";
 
-import LiveAuctionContainer from "#";
+import LiveAuctionContainer from "./LiveAuctionContainer";
 import TrendingNFTContainer from "./TrendingNFTContainer";
-import TrendingSellerContainer from "#";
+import TrendingSellerContainer from "./TrendingSellersContainer";
 import { useTheme } from "@emotion/react";
 import HeroBanner from "./HeroBanner";
 import StatsComponent from "../../Utils/StatsComponent/StatsComponent";
