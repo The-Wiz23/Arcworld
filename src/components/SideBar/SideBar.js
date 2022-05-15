@@ -13,7 +13,7 @@ import {
 
 // Icons
 import {
-  BsFillStarFill,
+
   BsLightbulbFill,
   BsFillBookmarkFill,
   BsGearFill,
