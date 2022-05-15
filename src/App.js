@@ -16,6 +16,7 @@ import Auction from "./Pages/Auction/Auction";
 import Explore from "./Pages/Explore/Explore";
 import Favourites from "./Pages/Favourites/Favourites";
 
+import TrendingSellers from "./Pages/TrendingSellers/TrendingSellers";
 
 import Home from "./Pages/Home/Home";
 import SellersDetails from "./Pages/SellerDetails/SellersDetails";
@@ -119,7 +120,14 @@ function App() {
                     path="/favourites"
                     element={<Favourites darkMode={darkMode} />}
                   />
-                  
+                  <Route
+                    path="/trending-sellers"
+                    element={<TrendingSellers darkMode={darkMode} />}
+                  />
+                  <Route
+                    path="/trending-sellers/:id"
+                    element={<SellersDetails darkMode={darkMode} />}
+                  />
                   <Route
                     path="/user/dummy"
                     element={<DummyUserProfile darkMode={darkMode} />}
