@@ -4,7 +4,7 @@ import { Box, useMediaQuery } from "@mui/material";
 import BackgroundWrinkles1 from "../../assets/BackgroundWrinkles1.svg";
 import BackgroundWrinklesLight from "../../assets/backgroundWrinklesLight.svg";
 
-
+import LiveAuctionContainer from "./LiveAuctionContainer";
 import TrendingNFTContainer from "./TrendingNFTContainer";
 import TrendingSellerContainer from "./TrendingSellersContainer";
 import { useTheme } from "@emotion/react";
@@ -39,13 +39,13 @@ const Home = ({ darkMode }) => {
               <StatsComponent darkMode={darkMode} />
             </Box>
             {/* Live Auctions */}
-            
+            <LiveAuctionContainer darkMode={darkMode} />
 
             {/* Trending NFTs */}
             <TrendingNFTContainer darkMode={darkMode} />
 
             {/* Trending Sellers */}
-            
+            <TrendingSellerContainer darkMode={darkMode} />
           </Box>
         </Box>
       ) : (
@@ -79,13 +79,13 @@ const Home = ({ darkMode }) => {
             {/* Stats */}
             <StatsComponent darkMode={darkMode} isMobile={true} />
             {/* Live Auctions */}
-            
+            <LiveAuctionContainer darkMode={darkMode} />
 
             {/* Trending NFTs */}
             <TrendingNFTContainer darkMode={darkMode} />
 
             {/* Trending Sellers */}
-            
+            <TrendingSellerContainer darkMode={darkMode} />
           </Box>
         </Box>
       )}
