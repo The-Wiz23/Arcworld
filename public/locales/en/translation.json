@@ -1,6 +1,7 @@
 {
   "NAV_HOME": "Home",
   "NAV_EXPLORE": "Explore",
+  "NAV_AUCTION": "Auction",
   "NAV_CREATE_ASSET": "Create Asset",
   "NAV_CONNECT_WALLET": "Connect Wallet",
   "SETTINGS_USER_PROFILE": "User Profile",
