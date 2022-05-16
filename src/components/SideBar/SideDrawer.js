@@ -17,7 +17,7 @@ import {
   BsChevronDown,
   BsChevronUp,
   BsQuestionOctagonFill,
-  BsFillStarFill,
+  
   BsLightbulbFill,
   BsFillBookmarkFill,
   BsGearFill,
