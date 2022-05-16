@@ -125,47 +125,7 @@ const SideDrawer = ({ darkMode, mobileOpen, handleDrawerToggle }) => {
           flexDirection: "column",
         }}
       >
-        <ListItem
-          disablePadding
-          sx={{
-            my: 1,
-            display: "flex",
-            position: "relative",
-            ml: 3,
-          }}
-        >
-          {location.pathname ===
-          `/trending-sellers${location.pathname.slice(17)}` ? (
-            <div
-              style={{
-                background:
-                  "linear-gradient(91.95deg, #2175D7 1.75%, #5ACDFE 98.13%)",
-                borderRadius: "4px",
-                width: "100%",
-                height: "50px",
-                position: "absolute",
-              }}
-            ></div>
-          ) : null}
-          <IconButton
-            sx={{ display: "flex", alignItems: "center", gap: 2, pl: 2 }}
-            onClick={() => handleReRouting("/trending-sellers")}
-          >
-            {location.pathname === "/trending-sellers" ? (
-              <Typography component="span" color="#ffffff">
-                <BsFillStarFill />
-              </Typography>
-            ) : (
-              <Typography component="span" color="secondary">
-                <BsFillStarFill />
-              </Typography>
-            )}
-
-            <Typography color="secondary" variant="body2" component="span">
-              {t("TRENDING_SELLERS")}
-            </Typography>
-          </IconButton>
-        </ListItem>
+        
         <ListItem
           disablePadding
           sx={{
