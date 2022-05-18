@@ -56,7 +56,7 @@ const Footer = ({ darkMode }) => {
           </Box>
           <Box sx={{ ml: -1.3 }}>
             <IconButton>
-              <a href="https://instagram.com/grogilla_the_great?igshid=YmMyMTA2M2Y="
+              <RiTwitterFill
                 style={{ color: `${darkMode ? "#ffffff" : "#171c26"}` }}
               />
             </IconButton>
