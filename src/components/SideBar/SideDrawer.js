@@ -336,9 +336,9 @@ const SideDrawer = ({ darkMode, mobileOpen, handleDrawerToggle }) => {
           </Typography>
         </IconButton>
         <IconButton sx={{ mt: 2 }}>
-          <Typography component="span" color="secondary">
-            <RiInstagramLine />
-          </Typography>
+
+        <a href="https://instagram.com/grogilla_the_great?igshid=YmMyMTA2M2Y=">Visit W3Schools</a>
+
         </IconButton>
         <Typography
           variant="caption"
