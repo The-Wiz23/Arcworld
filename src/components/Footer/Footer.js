@@ -60,6 +60,7 @@ const Footer = ({ darkMode }) => {
                 style={{ color: `${darkMode ? "#ffffff" : "#171c26"}` }}
               />
             </IconButton>
+            
             <IconButton>
               <RiInstagramLine
                 style={{ color: `${darkMode ? "#ffffff" : "#171c26"}` }}
