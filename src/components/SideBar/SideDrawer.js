@@ -345,7 +345,7 @@ const SideDrawer = ({ darkMode, mobileOpen, handleDrawerToggle }) => {
           component="div"
           sx={{ color: "gray", textAlign: "left", fontSize: "7px", mt: 1 }}
         >
-          &copy; 2021 {t("FOOTER_COPYRIGHT")}
+          &copy; 2022 {t("FOOTER_COPYRIGHT")}
         </Typography>
       </Box>
     </Box>
