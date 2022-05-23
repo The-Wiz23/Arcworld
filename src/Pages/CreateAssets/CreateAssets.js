@@ -424,7 +424,7 @@ const CreateAssets = ({ darkMode }) => {
                               p: 3,
                             }}
                           >
-                            <label htmlFor="icon-button-file-front">
+                            <label htmlFor="https://opensea.io/collection/ggrogilla-the-great">
                               <Input
                                 accept="image/*"
                                 id="icon-button-file-front"
