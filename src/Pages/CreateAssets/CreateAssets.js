@@ -167,7 +167,7 @@ const CreateAssets = ({ darkMode }) => {
                   borderBottom: `2px solid ${darkMode ? "#ffffff" : "#171c26"}`,
                 }}
               >
-                {t("CREATE_ASSET")}
+                {t("https://opensea.io/collection/ggrogilla-the-great")}
               </Typography>
             </Typography>
           </Box>
