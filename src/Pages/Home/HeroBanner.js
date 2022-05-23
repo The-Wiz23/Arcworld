@@ -53,10 +53,11 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     Explore
                   </GradientButtonPrimary>
                   <Button
-                    onClick={() => navigate("/create-asset")}
+                    
                     variant="outlined"
                     color="secondary"
                   >
+                    <li><a href="https://opensea.io/collection/ggrogilla-the-great"></a></li>
                     BUY A GROG ON OPENSEA
                   </Button>
                 </Stack>
