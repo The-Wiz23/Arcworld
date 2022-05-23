@@ -14,6 +14,9 @@ import React, { useEffect, useState } from "react";
 import { styled } from "@mui/material/styles";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 
+import React from 'react';
+import { Anchor } from 'antd';
+
 // Icons
 import { TiTimes } from "react-icons/ti";
 import { MdAddToPhotos } from "react-icons/md";
@@ -1064,6 +1067,17 @@ const CreateAssets = ({ darkMode }) => {
           </Box>
         </Box>
       )}
+      const { Link } = Anchor;
+
+      const App: React.FC = () => (
+        <Anchor>
+          <Link href="#components-anchor-demo-basic" title="Basic demo" />
+          <Link href="#components-anchor-demo-static" title="Static demo" />
+          <Link href="#API" title="API">
+            <Link href="#Anchor-Props" title="Anchor Props" />
+            <Link href="#Link-Props" title="Link Props" />
+          </Link>
+        </Anchor>
     </>
   );
 };
