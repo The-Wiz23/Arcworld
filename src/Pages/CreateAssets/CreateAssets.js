@@ -1073,6 +1073,7 @@ const CreateAssets = ({ darkMode }) => {
         <Link href="https://opensea.io/collection/ggrogilla-the-great" title="GROGILLA NFT on OPENSEA" />
         
       </Anchor>
+      );
     </>
   );
 };
