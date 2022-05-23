@@ -57,7 +57,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     variant="outlined"
                     color="secondary"
                   >
-                    Create
+                    BUY A GROG ON OPENSEA
                   </Button>
                 </Stack>
               ) : null}
