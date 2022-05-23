@@ -14,6 +14,8 @@ import React, { useEffect, useState } from "react";
 import { styled } from "@mui/material/styles";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 
+import { Anchor } from 'antd';
+
 // Icons
 import { TiTimes } from "react-icons/ti";
 import { MdAddToPhotos } from "react-icons/md";
@@ -1064,6 +1066,13 @@ const CreateAssets = ({ darkMode }) => {
           </Box>
         </Box>
       )}
+          const { Link } = Anchor;
+
+    const App: React.FC = () => (
+      <Anchor>
+        <Link href="https://opensea.io/collection/ggrogilla-the-great" title="GROGILLA NFT on OPENSEA" />
+        
+      </Anchor>
     </>
   );
 };
