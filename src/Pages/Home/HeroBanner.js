@@ -53,7 +53,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     Explore
                   </GradientButtonPrimary>
                   <Button
-                    onClick={() => navigate("/https://opensea.io/collection/ggrogilla-the-great")}
+                    onClick={() => navigate(<a href="https://opensea.io/collection/ggrogilla-the-great"></a>)}
                     variant="outlined"
                     color="secondary"
                   >
