@@ -3,6 +3,7 @@ import {
   Grid,
   IconButton,
   Stack,
+  Typography,
   useMediaQuery,
 } from "@mui/material";
 import { useTheme } from "@emotion/react";
@@ -166,7 +167,7 @@ const CreateAssets = ({ darkMode }) => {
                   borderBottom: `2px solid ${darkMode ? "#ffffff" : "#171c26"}`,
                 }}
               >
-                {t("https://opensea.io/collection/ggrogilla-the-great")}
+                {t("CREATE_ASSET")}
               </Typography>
             </Typography>
           </Box>
