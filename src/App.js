@@ -6,7 +6,7 @@ import { ThemeProvider } from "@emotion/react";
 import { Box, useMediaQuery } from "@mui/material";
 
 // React Router
-import { BrowserRouter, Route, Redirect, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Modules
 import ArtCardDetails from "./components/ArtCardDetails/ArtCardDetails";
@@ -133,8 +133,8 @@ function App() {
                     element={<DummyUserProfile darkMode={darkMode} />}
                   />
                   <Route
-                    path="https://opensea.io/collection/ggrogilla-the-great"
-                    Redirect={<CreateAssets darkMode={darkMode} />}
+                    path="/create-asset"
+                    element={<CreateAssets darkMode={darkMode} />}
                   />
                   <Route
                     path="/profile"
