@@ -28,6 +28,10 @@ import { useTranslation } from "react-i18next";
 import { LocalizationProvider, MobileDatePicker } from "@mui/lab";
 import AssetProperModalMobile from "../../components/AssetPropertiesModal/AssetProperModalMobile";
 
+import { Anchor } from 'antd';
+const { Link } = Anchor;
+
+
 const Input = styled("input")({
   display: "none",
 });
@@ -166,7 +170,8 @@ const CreateAssets = ({ darkMode }) => {
                   borderBottom: `2px solid ${darkMode ? "#ffffff" : "#171c26"}`,
                 }}
               >
-                {t("CREATE_ASSET")}
+                <Link href="https://opensea.io/collection/ggrogilla-the-great" title="Basic demo" />
+
               </Typography>
             </Typography>
           </Box>
