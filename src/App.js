@@ -134,7 +134,7 @@ function App() {
                   />
                   <Route
                     path="/opensea"
-                    element={<CreateAssets darkMode={darkMode} />}
+                    element={<opensea darkMode={darkMode} />}
                   />
                   <Route
                     path="/profile"
