@@ -66,7 +66,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
           </Grid>
           <Grid item md={4} xs={1}>
             {!isMobile ? (
-              <CardsDeck darkMode={darkMode} />
+              <CardDeck darkMode={darkMode} />
             ) : (
               <MobileCardDeck darkMode={darkMode} />
             )}
