@@ -8,7 +8,7 @@ const handleClick = (e, link) => {
   console.log(link);
 };
 
-const App = () => (
+const CreateAssets = () => (
   <Anchor affix={false} onClick={handleClick}>
     <Link href="https://opensea.io/collection/ggrogilla-the-great" title="Basic demo" />
     <Link href="#components-anchor-demo-static" title="Static demo" />
