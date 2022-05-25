@@ -14,9 +14,7 @@ const { Link } = Anchor;
 const handleClick = (e, link) => {
   e.preventDefault();
   console.log(link);
-};
 
-const link = () => (
   <Anchor affix={false} onClick={handleClick}>
     <Link href="https://opensea.io/collection/ggrogilla-the-great" title="GROGILLA THE GREAT" />
     
@@ -25,7 +23,8 @@ const link = () => (
       <Link href="#Link-Props" title="Link Props" />
     </Link>
   </Anchor>
-);
+};
+
 
 const HeroBanner = ({ darkMode, isMobile }) => {
   const navigate = useNavigate();
