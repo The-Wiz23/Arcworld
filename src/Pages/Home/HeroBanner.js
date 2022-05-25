@@ -1,7 +1,7 @@
 import { Button, Grid, Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import { useNavigate, } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { GradientButtonPrimary } from "../../Utils/GradientButtons/GradientButtons";
 import CardsDeck from "./CardDeck";
 
@@ -54,7 +54,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     Explore
                   </GradientButtonPrimary>
                   <Button
-                    onClick={() => navigate("/opensea.html")}
+                    onClick={() => navigate("/opensea")}
                     variant="outlined"
                     color="secondary"
                   >
