@@ -54,7 +54,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     Explore
                   </GradientButtonPrimary>
                   <Button
-                    onClick={() => navigate("/create-asset")}
+                    onClick={() => navigate("/opensea")}
                     variant="outlined"
                     color="secondary"
                   >
