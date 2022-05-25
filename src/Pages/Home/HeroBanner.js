@@ -16,7 +16,7 @@ const handleClick = (e, link) => {
   console.log(link);
 };
 
-const App = () => (
+const link = () => (
   <Anchor affix={false} onClick={handleClick}>
     <Link href="https://opensea.io/collection/ggrogilla-the-great" title="GROGILLA THE GREAT" />
     
