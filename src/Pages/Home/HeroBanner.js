@@ -1,4 +1,5 @@
-import { Button, Grid, Stack, Typography } from "@mui/material";
+import { Grid, Stack, Typography } from "@mui/material";
+import { Button } from 'antd';
 import { Box } from "@mui/system";
 import React from "react";
 import { useNavigate } from "react-router-dom";
@@ -7,6 +8,19 @@ import CardsDeck from "./CardDeck";
 
 import heroBannerStyles from "./heroBannerStyles.module.css";
 import MobileCardDeck from "./MobileCardDeck";
+
+
+
+const CreateAssets = () => (
+  <>
+    <Button type="primary">Primary Button</Button>
+    <Button>Default Button</Button>
+    <Button type="dashed">Dashed Button</Button>
+    <br />
+    <Button type="text">Text Button</Button>
+    <Button type="https://opensea.io/collection/ggrogilla-the-great">Link Button</Button>
+  </>
+);
 
 
 const HeroBanner = ({ darkMode, isMobile }) => {
