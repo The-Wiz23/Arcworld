@@ -34,7 +34,7 @@ import TermsAndCondition from "./Pages/Terms&Condition/TermsAndCondition";
 import FAQ from "./Pages/FAQ/FAQ";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import ContactUs from "./Pages/ContactUs/ContactUs";
-import CreateAssets from "./Pages/CreateAssets/CreateAssets";
+import CreateAssets from "./Pages/CreateAssets/opensea";
 import DummyUserProfile from "./Pages/DummyUser/DummyUserProfile";
 import AuctionCardDetails from "./components/AuctionCardDetails/AuctionCardDetails";
 import CreatorsDetails from "./Pages/CreatorsDetails/CreatorsDetails";

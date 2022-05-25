@@ -1,7 +1,7 @@
 import { Button, Grid, Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import { useNavigate, } from "react-router";
+import { useNavigate, } from "react-router-dom";
 import { GradientButtonPrimary } from "../../Utils/GradientButtons/GradientButtons";
 import CardsDeck from "./CardDeck";
 
