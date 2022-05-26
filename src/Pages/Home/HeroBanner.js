@@ -53,7 +53,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     Explore
                   </GradientButtonPrimary>
                   <Button
-                    onClick={(fun) => window.location="/opensea"}
+                    onClick={() => navigate("/opensea")}
                     variant="outlined"
                     color="secondary"
                   >
