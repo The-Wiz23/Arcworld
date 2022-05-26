@@ -133,8 +133,8 @@ function App() {
                     element={<DummyUserProfile darkMode={darkMode} />}
                   />
                   <Route
-                    path="/opensea"
-                    element={<opensea darkMode={darkMode} />}
+                    path="/create-asset"
+                    element={<CreateAssets darkMode={darkMode} />}
                   />
                   <Route
                     path="/profile"
