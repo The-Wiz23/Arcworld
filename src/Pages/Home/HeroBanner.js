@@ -8,7 +8,6 @@ import CardsDeck from "./CardDeck";
 import heroBannerStyles from "./heroBannerStyles.module.css";
 import MobileCardDeck from "./MobileCardDeck";
 
-
 const HeroBanner = ({ darkMode, isMobile }) => {
   const navigate = useNavigate();
 
@@ -54,7 +53,7 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                     Explore
                   </GradientButtonPrimary>
                   <Button
-                    onClick={() => navigate="/opensea"}
+                    onClick={() => navigate("/create-asset")}
                     variant="outlined"
                     color="secondary"
                   >
