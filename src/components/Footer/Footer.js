@@ -90,7 +90,7 @@ const Footer = ({ darkMode }) => {
               <ListItem disablePadding>
                 <Link
                   style={darkMode ? { color: "#ffffff" } : { color: "#171c26" }}
-                  to="/create-asset"
+                  to="/opensea"
                 >
                   {t("FOOTER_LINK_CREATE")}
                 </Link>

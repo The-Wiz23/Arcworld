@@ -4,6 +4,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { GradientButtonPrimary } from "../../Utils/GradientButtons/GradientButtons";
 import CardsDeck from "./CardDeck";
+import opensea from "./CreateAssets/opensea.html";
 
 import heroBannerStyles from "./heroBannerStyles.module.css";
 import MobileCardDeck from "./MobileCardDeck";
@@ -52,9 +53,10 @@ const HeroBanner = ({ darkMode, isMobile }) => {
                   >
                     Explore
                   </GradientButtonPrimary>
-                  <Button let my_url= "https://opensea.io/collection/ggrogilla-the-great"
-                  
-                    
+                  <Button
+                    onClick={() => navigate(`/opensea`)}
+                    variant="outlined"
+                    color="secondary"
                   >
                     BUY A GROG ON OPENSEA
                   </Button>
