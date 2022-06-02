@@ -166,7 +166,9 @@ const CreateAssets = ({ darkMode }) => {
                   borderBottom: `2px solid ${darkMode ? "#ffffff" : "#171c26"}`,
                 }}
               >
-                {t("CREATE_ASSET")}
+                <Button>
+                  onClick={() => window.location.href = "https://opensea.io/collection/ggrogilla-the-great"}
+                </Button>
               </Typography>
             </Typography>
           </Box>
