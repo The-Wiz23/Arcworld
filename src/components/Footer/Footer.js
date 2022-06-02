@@ -89,8 +89,7 @@ const Footer = ({ darkMode }) => {
               </ListItem>
               <ListItem disablePadding>
                 <Link
-                  style={darkMode ? { color: "#ffffff" } : { color: "#171c26" }}
-                  to="/opensea"
+                  onClick={() => window.location.href = "https://opensea.io/collection/ggrogilla-the-great"}
                 >
                   {t("FOOTER_LINK_CREATE")}
                 </Link>
