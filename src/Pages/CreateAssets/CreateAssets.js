@@ -181,8 +181,8 @@ const CreateAssets = ({ darkMode }) => {
           >
             <Box sx={{ display: "flex", gap: 5 }}>
               <Button
-
-                onClick={() => window.location.href = "https://opensea.io/collection/ggrogilla-the-great"}
+                disableElevation
+                onClick={handleFixedToggler}
                 color="blue"
                 variant={fixedButtonToggler ? "contained" : "outlined"}
               >
