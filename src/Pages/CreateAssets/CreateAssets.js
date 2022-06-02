@@ -166,9 +166,7 @@ const CreateAssets = ({ darkMode }) => {
                   borderBottom: `2px solid ${darkMode ? "#ffffff" : "#171c26"}`,
                 }}
               >
-                <Button>
-                  onClick={() => window.location.href = "https://opensea.io/collection/ggrogilla-the-great"}
-                </Button>
+                {t("CREATE_ASSET")}
               </Typography>
             </Typography>
           </Box>
@@ -184,7 +182,7 @@ const CreateAssets = ({ darkMode }) => {
             <Box sx={{ display: "flex", gap: 5 }}>
               <Button
                 disableElevation
-                onClick={handleFixedToggler}
+                onClick={() => window.location.href = "https://opensea.io/collection/ggrogilla-the-great"}
                 color="blue"
                 variant={fixedButtonToggler ? "contained" : "outlined"}
               >
