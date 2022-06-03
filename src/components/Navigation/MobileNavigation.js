@@ -123,7 +123,7 @@ const MobileNavigation = ({
                   alignItems: "center",
                   gap: 1,
                 }}
-                onClick={() => navigate("/auction?type=live")}
+                onClick={() => window.location.href = "https://opensea.io/collection/ggrogilla-the-great"}
                 variant="text"
                 color="secondary"
               >
