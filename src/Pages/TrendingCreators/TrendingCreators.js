@@ -21,7 +21,7 @@ const TrendingCreators = ({ darkMode }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("/creatorData.json").then((res) => {
+    axios.get("Grogilla_Roadmap.png").then((res) => {
       setTrendingCreators(res.data);
     });
   }, []);
