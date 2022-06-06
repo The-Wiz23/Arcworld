@@ -10,6 +10,13 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@emotion/react";
 import CreatorCard from "../../components/CreatorCard/CreatorCard";
+import Product from "../../images/Grogilla_Roadmap.png";
+import { Icon } from "@material-ui/core";
+
+<Icon>
+    <img src={Product} style={{ width: "21px", height: "24px" }} />
+</Icon>
+
 
 const TrendingCreators = ({ darkMode }) => {
   const { t } = useTranslation();
@@ -21,7 +28,7 @@ const TrendingCreators = ({ darkMode }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("Grogilla_Roadmap.png").then((res) => {
+    axios.get("/creatorData.json").then((res) => {
       setTrendingCreators(res.data);
     });
   }, []);
