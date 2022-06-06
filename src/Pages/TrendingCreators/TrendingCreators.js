@@ -4,16 +4,13 @@ import { Box } from "@mui/system";
 import axios from "axios";
 import TrendingSellersFB from "../../components/Skeletons/TrendingSellersFB";
 
-import BackgroundWrinkles1 from "../../assets/BackgroundWrinkles1.svg";
+import BackgroundWrinkles1 from "../../images/Grogilla_Roadmap.png";
 import BackgroundWrinklesLight from "../../assets/backgroundWrinklesLight.svg";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@emotion/react";
 import CreatorCard from "../../components/CreatorCard/CreatorCard";
-import images from '../../images/Grogilla_Roadmap.png';
 
-var images = document.createElement("images");  
-images.src = 'images/Grogilla_Roadmap.png'; 
 
 
 const TrendingCreators = ({ darkMode }) => {
