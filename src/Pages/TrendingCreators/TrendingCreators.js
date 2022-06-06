@@ -10,6 +10,11 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "@emotion/react";
 import CreatorCard from "../../components/CreatorCard/CreatorCard";
+import images from '../../images/Grogilla_Roadmap.png';
+
+var images = document.createElement("images");  
+images.src = 'images/Grogilla_Roadmap.png'; 
+
 
 const TrendingCreators = ({ darkMode }) => {
   const { t } = useTranslation();
