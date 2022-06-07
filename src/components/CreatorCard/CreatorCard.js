@@ -26,7 +26,7 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
   return (
     <Grow
       in={true}
-      style={{ transformOrigin: "0 0 0" }}
+      style={{ transformOrigin: "500 300 0" }}
       {...(true ? { timeout: 1000 + parsedId } : {})}
     >
       <Grid item xs={1} sm={6} md={3} zIndex={1000}>
