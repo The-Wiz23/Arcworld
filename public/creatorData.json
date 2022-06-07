@@ -1,23 +1,12 @@
 [
   {
     "id": "1",
-    "sellerName": "Merry Rose",
-    "sellerUserName": "@mrose",
-    "sellerInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui scelerisque eu nibh netus consequat mauris mauris. Est ac urna faucibus amet. Sit.",
     "sellerImage": "../../images/Grogilla_Roadmap.png",
     "sellerItems": [
       {
         "id": "1",
         "artworkImage": "../../images/Grogilla_Roadmap.png",
-        "artworkTitle": "Canvas and the bloddy lady",
-        "artworkDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin ante turpis eu scelerisque nec. In facilisi nam blandit sit quis fringilla libero. Ut a non gravida diam euismod interdum ac. enimduis magna lacinia urna, neque nascetur.In nunc sed  read more",
-        "artworkPrice": "100 MINTO (141 USD)",
-        "creator": "@michail",
         "creatorImage": "../../images/Grogilla_Roadmap.png",
-        "owner": "@jWest",
-        "ownerImage": "https://res.cloudinary.com/djisilfwk/image/upload/v1642264443/Minto%20NFT%20Marketplace/avatars/joe_west.jpg",
-        "uploaded": "12 hours ago",
-        "likes": 40,
         "tag": "createdItems"
       }
     ]
