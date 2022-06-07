@@ -26,7 +26,7 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
   return (
     <Grow
       in={true}
-      style={{ transformOrigin: "500 300 0" }}
+      style={{ transformOrigin: "0 0 0" }}
       {...(true ? { timeout: 1000 + parsedId } : {})}
     >
       <Grid item xs={1} sm={6} md={3} zIndex={1000}>
@@ -64,8 +64,8 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
                   src={sellerImage}
                   alt={sellerUserName}
                   sx={{
-                    width: "50px",
-                    height: "50px",
+                    width: "500px",
+                    height: "300px",
                     border: `3px solid ${darkMode ? "#ffffff" : "#01D4FA"}`,
                   }}
                 />
