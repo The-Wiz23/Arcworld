@@ -44,8 +44,8 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
                   src={sellerImage}
                   alt={sellerUserName}
                   sx={{
-                    width: "1500px",
-                    height: "3200px",
+                    width: "1000px",
+                    height: "2200px",
                     borderRadius: "0",
                     
                   }}
