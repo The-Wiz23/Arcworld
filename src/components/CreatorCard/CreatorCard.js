@@ -31,33 +31,13 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
     >
       <Grid item xs={1} sm={6} md={3} zIndex={1000}>
         <Box
-          style={{
-            background: `${
-              darkMode
-                ? "linear-gradient(to right, #AD18C7, #11C4E3)"
-                : "inherit"
-            }`,
-            padding: `${darkMode ? "1px" : "0"}`,
-            borderRadius: "0",
-          }}
+          
         >
           <Box
-            bgcolor={darkMode ? "#121212" : "#ffffff"}
-            onClick={() => handleSellerDetails(id)}
-            sx={{
-              borderRadius: "0",
-              p: 2,
-              cursor: "pointer",
-              boxShadow: `${!darkMode && "0px 4px 4px rgba(0, 0, 0, 0.25)"}`,
-            }}
+            
           >
             <Box
-              color={darkMode ? "#ffffff" : "#121212"}
-              sx={{
-                display: "flex",
-                gap: 2,
-                alignItems: "center",
-              }}
+              
             >
               <Box>
                 <Avatar
