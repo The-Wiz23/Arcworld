@@ -38,14 +38,14 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
                 : "inherit"
             }`,
             padding: `${darkMode ? "1px" : "0"}`,
-            borderRadius: "16px",
+            borderRadius: "0",
           }}
         >
           <Box
             bgcolor={darkMode ? "#121212" : "#ffffff"}
             onClick={() => handleSellerDetails(id)}
             sx={{
-              borderRadius: "16px",
+              borderRadius: "0",
               p: 2,
               cursor: "pointer",
               boxShadow: `${!darkMode && "0px 4px 4px rgba(0, 0, 0, 0.25)"}`,
@@ -64,9 +64,9 @@ const CreatorCard = ({ ts, handleSellerDetails, darkMode }) => {
                   src={sellerImage}
                   alt={sellerUserName}
                   sx={{
-                    width: "500px",
-                    height: "300px",
-                    border: `3px solid ${darkMode ? "#ffffff" : "#01D4FA"}`,
+                    width: "1598px",
+                    height: "3264px",
+                    
                   }}
                 />
               </Box>
